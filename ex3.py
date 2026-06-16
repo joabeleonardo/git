@@ -5,3 +5,9 @@ while numero != 0:
     total = total + numero
 
 print(f"A soma dos números digitados é {total}")
+
+#####
+alvo = int(input("Informe um número"))
+
+for item in range(1,alvo+1,1):
+    print(item)
